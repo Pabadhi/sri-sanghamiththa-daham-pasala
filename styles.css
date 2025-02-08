@@ -270,7 +270,7 @@ footer {
 
 .home-page::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -294,7 +294,7 @@ footer {
 
 .academic::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -315,4 +315,53 @@ footer {
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow effect */
+}
+
+/* News Section Styling */
+
+.news-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #8b8b7e; /* Light Yellow */
+    border-top: 4px solid #ff7f00; /* Orange Border */
+    margin-top: 80px;
+}
+
+
+.news-section h2 {
+    font-size: 2rem;
+    color: #151617;
+    margin-bottom: 20px;
+}
+
+/* News Container for Side-by-Side Layout */
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual News Item */
+.news-item {
+    background: rgb(13, 13, 13);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Text Styling */
+.news-item p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
 }
