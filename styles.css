@@ -286,7 +286,7 @@ footer {
 }
 
 .staff-page {
-    background: url('img.jpg') no-repeat center center fixed;
+    background: url('home2.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center;
     background-attachment: fixed; /* Keeps the image fixed when scrolling */
@@ -324,7 +324,7 @@ footer {
     padding: 60px 20px;
     background: #8b8b7e; /* Light Yellow */
     border-top: 4px solid #ff7f00; /* Orange Border */
-    margin-top: 80px;
+    margin-top: 190px;
 }
 
 
