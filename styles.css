@@ -286,7 +286,7 @@ footer {
 }
 
 .staff-page {
-    background: url('home2.jpg') no-repeat center center fixed;
+    background: url('acc.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center;
     background-attachment: fixed; /* Keeps the image fixed when scrolling */
