@@ -1,0 +1,308 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+nav {
+    background-color: #dc7a19; /* Orange */
+    padding: 15px;
+    text-align: center;
+    width: 100%; /* Ensures the orange bar is full width */
+}
+
+/* Centering the Navigation List */
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Keeps tabs centered */
+    max-width: 800px; /* Limits tab expansion */
+}
+
+/* Navigation Items */
+nav ul li {
+    margin: 0 10px; /* Keeps spacing between tabs */
+}
+
+/* Navigation Links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Active and Hover Tab Color */
+nav ul li a.active, nav ul li a:hover {
+    background-color: #9c6230; /* Light brown */
+}
+
+
+/* Main Content Wrapper */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Section */
+header {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #080808;
+    text-align: center;
+}
+
+h5 {
+    margin-top: -10px;
+    font-size: 3rem;
+    color: #080808;
+    text-align: center;
+    margin-bottom: -10px; 
+}
+
+h4 {
+    margin-top: -10px;
+    font-size: 3rem;
+    color: #0d0d0e;
+    text-align: center;
+}
+h3 {
+    font-size: 3rem;
+    color: #f7f3f3;
+    text-align: center;
+}
+
+/* Social Media Buttons */
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #ff7f00; /* Orange */
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-btn img {
+    width: 25px;
+    height: auto;
+}
+
+/* Hover Effect */
+.social-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Footer Section */
+footer {
+    background: #dc7a19; /* Orange */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 30px; /* Add spacing between content and footer */
+}
+
+/* Staff Section Styling */
+.staff-section {
+    margin: 10px auto;; /* Add more margin for spacing */
+    width: 80%;
+    max-width: 700px;
+    padding: 20px;
+    background: #f9f5df; /* Light Yellow */
+    border: 3px solid #ff7f00; /* Orange Border */
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.staff-section h2 {
+    margin-top: -5px;
+    text-align: center;
+    color: #0f0e0d; /* Dark Text */
+    font-size: 1.5rem;
+    margin-bottom: 5px; /* Reduce this value to decrease spacing */
+    background: #57b8e1; /* Deep Yellow */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.staff-section ul {
+    list-style: none;
+    padding: 5px 20px; /* Reduce top padding */
+    margin-top: -10px; /* Adjust spacing if needed */
+}
+
+
+.staff-section ul li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Timetable Section Styling */
+.timetable-section {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Clean Table Layout */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -90px;
+}
+
+/* Table Header */
+.timetable th {
+    background-color: #ffcc00; /* Deep Yellow */
+    color: black;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-bottom: 2px solid #ff7f00; /* Orange */
+}
+
+/* Alternating Row Colors */
+.timetable .even {
+    background-color: #ffe699; /* Light Yellow */
+}
+
+.timetable .odd {
+    background-color: #ffedcc; /* Lighter Orange */
+}
+
+/* Bold Time Column */
+.timetable td {
+    padding: 12px;
+    font-size: 1rem;
+    border-bottom: 1px solid #ff7f00; /* Orange */
+}
+
+.timetable td:first-child {
+    font-weight: bold;
+}
+
+.structure-section {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background: #cde6ff; /* Light Yellow */
+    border: 3px solid #ff7f00; /* Orange Border */
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.structure-section h2 {
+    text-align: center;
+    color: #060606; /* Orange Heading */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    background: #ffcc00; /* Deep Yellow */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.structure-section p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+    padding-left: 15px;
+}
+
+/* Background image only for the home page */
+.home-page {
+    background: url('home1.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+.home-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: -1; /* Keeps it behind content */
+}
+.academic-page {
+    background: url('home2.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+.staff-page {
+    background: url('img.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+.academic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Black overlay with 50% opacity */
+    z-index: -1; /* Keeps it behind content */
+}
+.location {
+    font-size: 2rem;
+    color: rgb(138, 161, 218); /* Adjust text color */
+    margin-top: -30px; /* Reduce spacing between title and location */
+}
+
+.admin-image {
+    display: block;
+    margin: 10px auto; /* Centers the image */
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow effect */
+}
