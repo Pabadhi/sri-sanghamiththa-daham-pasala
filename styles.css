@@ -83,14 +83,24 @@ h5 {
     font-size: 3rem;
     color: #080808;
     text-align: center;
+    text-shadow: 
+        -2px -2px 0 white,  
+         2px -2px 0 white,  
+        -2px  2px 0 white,  
+         2px  2px 0 white; /* White outline */
     margin-bottom: -10px; 
 }
 
 h4 {
     margin-top: -10px;
     font-size: 3rem;
-    color: #0d0d0e;
+    color: #2a2d30; /* Main text color */
     text-align: center;
+    text-shadow: 
+        -2px -2px 0 white,  
+         2px -2px 0 white,  
+        -2px  2px 0 white,  
+         2px  2px 0 white; /* White outline */
 }
 h3 {
     font-size: 3rem;
@@ -269,7 +279,7 @@ footer {
     z-index: -1; /* Keeps it behind content */
 }
 .academic-page {
-    background: url('home2.jpg') no-repeat center center fixed;
+    background: url('IMG-20220313-WA0037.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center;
     background-attachment: fixed; /* Keeps the image fixed when scrolling */
