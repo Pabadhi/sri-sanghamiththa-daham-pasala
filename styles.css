@@ -78,6 +78,17 @@ h1 {
     text-align: center;
 }
 
+/* Custom Header Styling */
+.custom-heading {
+    font-size: 3rem;
+    color: #080808;
+    text-align: center;
+    font-weight: bold; /* Ensures bold text */
+    margin-bottom: -80px; /* Adjust spacing */
+}
+
+
+
 h5 {
     margin-top: -10px;
     font-size: 3rem;
@@ -199,7 +210,7 @@ footer {
 .timetable {
     width: 100%;
     border-collapse: collapse;
-    margin-top: -90px;
+    margin-top: -50px;
 }
 
 /* Table Header */
@@ -365,3 +376,82 @@ footer {
     color: #333;
     margin-top: 10px;
 }
+
+/* Academic Work Section */
+.academic-work-section {
+    margin-top: 300px; ;
+    text-align: center;
+    padding: 40px 20px;
+    background: #101010; /* Light Yellow */
+    border-top: 4px solid #ff7f00; /* Orange Border */
+    margin-top: 40px; /* Adds spacing above */
+}
+
+/* Grade Container */
+.grade-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Grade Box */
+.grade-box {
+    display: block;
+    padding: 15px 20px;
+    background: #ff7f00; /* Orange */
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    width: 120px;
+    text-align: center;
+}
+
+/* Hover Effect */
+.grade-box:hover {
+    background: #b5651d; /* Light Brown */
+}
+
+.grade-page {
+    background: #ffffff !important; /* Forces white background */
+}
+
+/* Ensures text is aligned left */
+.academic-content {
+    text-align: left;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto; /* Centers the container */
+}
+
+/* New Header Style for Red Text (for Assignments) */
+.assignment-header {
+    font-size: 2rem !important;
+    color: red !important; /* Ensure red color is applied */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* New Header Style for Black Text (for Reference Books) */
+.reference-header {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Styling for Lists */
+.academic-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.academic-content p {
+    font-size: 1rem;
+    color: #333;
+}
+
